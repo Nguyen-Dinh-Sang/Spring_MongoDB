@@ -1,0 +1,16 @@
+- MongoDB stores data records as BSON documents. BSON is a Binary representation of JSON documents.
+
+- When we added or when we inserted a new student, when the collection doesn't exist it create a new  collection.
+
+student = {
+    "name" : "Sang",
+    "mail" : "a@b",
+    "gender" : "F",
+    "totalBook": 0
+}
+
+1: paste object in terminal.
+2: db.student.insert(student);
+
+- Size of collection: db.student.count();
+- Find all document in collection: db.student.find();

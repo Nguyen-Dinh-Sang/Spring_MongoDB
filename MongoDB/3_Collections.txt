@@ -1,0 +1,9 @@
+- Mongo stores documents (rows) in collections (table).
+
+- Create collection: db.createCollection("person");
+
+- Show all collections: show collections;
+
+- Show information of collection: db.person.stats();
+
+- Drop collections: db.person.drop();

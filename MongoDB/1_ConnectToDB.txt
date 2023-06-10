@@ -1,0 +1,7 @@
+- Using GUI Client (MongoExpress, DataGrip, MongoDB Compass)
+- Mongo Shell: interactive JavaScript interfacet to MongoDB. 
+    - mongosh mongodb://localhost:27017 -u rootuser -p rootpass Used to run commands against(đối với) the database.
+
+    - docker exec -it container_id bash
+
+    - show dbs; to see database.

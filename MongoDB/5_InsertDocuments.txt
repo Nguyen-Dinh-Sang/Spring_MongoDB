@@ -1,0 +1,28 @@
+students = [
+    {
+        "name" : "Sang 2",
+        "mail" : "a2@b",
+        "gender" : "F",
+        "totalBook": 0
+    },
+    {
+        "name" : "Sang 3",
+        "mail" : "a23@b",
+        "gender" : "F",
+        "totalBook": 10
+    },
+    {
+        "name" : "Sang 4",
+        "mail" : "a4@b",
+        "gender" : "F",
+        "totalBook": 15.5
+    },
+    {
+        "name" : "Sang 5",
+        "mail" : "a5@b",
+        "gender" : "F",
+        "totalBook": 100
+    }
+]
+
+- Insert many document: 

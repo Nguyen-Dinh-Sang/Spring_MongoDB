@@ -1,0 +1,7 @@
+- Use update: db.student.update({_id: ObjectId("647cb1f2a8cce79c8d4c9fab")}, {$set: {name: 'Update Name'}})
+- Update many: db.student.updateMany
+- Remove a property: db.student.update({_id: ObjectId("647cb1f2a8cce79c8d4c9fab")}, {$unset: {name: 1}})
+- Increment number: db.student.update({_id: ObjectId("647cb1f2a8cce79c8d4c9fab")}, {$inc: {totalBook: 10}})
+- Add a new property: db.student.update({_id: ObjectId("647cb1f2a8cce79c8d4c9fab")}, {$set: {testArr: ['a', 'b']}})
+- Remove from array: db.student.update({_id: ObjectId("647cb1f2a8cce79c8d4c9fab")}, {$pull: {testArr: 'a'}})
+- Add to array: db.student.update({_id: ObjectId("647cb1f2a8cce79c8d4c9fab")}, {$push: {testArr: 'a'}})

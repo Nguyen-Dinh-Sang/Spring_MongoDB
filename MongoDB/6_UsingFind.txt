@@ -1,0 +1,10 @@
+db.users.find(              : collection
+    { age: {$gt: 18}},      : query criteria (tiêu chí)
+    { name: 1, address: 1}  : projection (chiếu)
+).limit(5)                  : cursor modifier
+
+
+- db.student.find({name: 'Sang 4'});
+- db.student.find({name: 'Sang 4'}, {_id: 1});  : select column _id.
+- db.student.find({name: 'Sang 4'}, {_id: 1, abc: 'abc'}); : add column.
+- db.student.find({name: 'Sang 4'}, {_id: 0});  : get all column, but don't get _id.

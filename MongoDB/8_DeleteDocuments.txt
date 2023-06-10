@@ -1,0 +1,4 @@
+- Delete one: db.student.deleteOne({ _id: ObjectId("647caa41a8cce79c8d4c9fa7")})
+- Delete one: db.student.deleteOne({}), if don't have the filter it keeps on deleting from the collection.
+- Delete many: db.student.deleteMany({gender: 'F'})
+- Delete many: db.student.deleteMany({}) delete everything.

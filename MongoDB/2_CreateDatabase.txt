@@ -1,0 +1,7 @@
+- "use" command to create or switch to db if exists.
+
+- show dbs; only show db when have a collection inside.
+
+- db.getName();
+- db.createCollection("hello");
+- db.dropDatabase();  
